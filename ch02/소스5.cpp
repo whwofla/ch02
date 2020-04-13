@@ -10,5 +10,4 @@ int main()
 	{
 		printf("\n address : %u sale[%d]=%d", &sale[i],i,sale[i]);
 	}
-	getchar();
 }
