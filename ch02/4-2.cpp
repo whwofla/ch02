@@ -51,7 +51,7 @@ void insertMiddleNode(linkedList_h* L, listNode* pre, char* x) {
 	listNode* newNode;
 	newNode = (listNode*)malloc(sizeof(listNode));
 	strcpy(newNode->data, x);
-	if (L == NULL) {
+	if (L->head == NULL) {
 		newNode->link = NULL;
 		L->head = newNode;
 	}
