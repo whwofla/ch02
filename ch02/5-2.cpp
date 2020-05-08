@@ -11,7 +11,7 @@ typedef struct stackNode {
 
 stackNode* top;
 
-int isEmpty()k {
+int isEmpty() {
 	if (top == NULL) return 1;
 	else return 0;
 }
@@ -31,6 +31,7 @@ element pop() {
 		printf("\n\n Stack is empty !\n");
 		return 0;
 	}
+
 	else {
 		item = temp->data;
 		top = temp->link;
