@@ -49,7 +49,7 @@ int testPair(char* exp) {
 			switch (symbol) {
 			case'(':
 			case'{':
-			case '[':
+			case'[':
 				push(symbol); break;
 			case')':
 			case']':
