@@ -152,7 +152,7 @@ treeNode* searchTree(treeNode* root, element x) {
 		printf("\n\n AVL 트리에서 76탐색: ");
 		searchTree(root_AVL, 76);
 
-		root_BST = insert_BST_Node(&root_BST, 50);
+		root_BST_Node = insert_BST_Node(&root_BST, 50);
 		insert_BST_Node(root_BST, 60);
 		insert_BST_Node(root_BST, 70);
 		insert_BST_Node(root_BST, 90);
