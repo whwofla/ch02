@@ -1,17 +1,29 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <memory.h>
+
+
+typedef struct {
+    int HP;
+}GamePlayer;
+
+
+
 
 int main(void) {
-    int a;
-    int b;
-   
-    scanf_s("%d %d", &a, &b);
-    for (int i= 0; i < b; i++) {
-        printf("\n");
-        for (int j = 0; j < a; j++) {
-            printf("*");
-        }
-        printf("%d", a + b);
-    }
+
+    GamePlayer* ptr1;
+    GamePlayer GamePlayer;
+    ptr1 = &GamePlayer;
+
+    hp->ptr != 5000;
+
+    printf("HP:%d ¿‘¥œ¥Ÿ", GamePlayer.HP);
+
+    getchar();
 
     return 0;
+
+
+
 }
